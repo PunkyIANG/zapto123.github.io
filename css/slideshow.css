@@ -1,6 +1,6 @@
 .slideshow {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     scrollbar-width: thin;
     background-color: black;
     margin: auto;
@@ -13,8 +13,3 @@
     border-radius: 5px;
 }
 
-@media only screen and (min-width: 1600px) {
-    .slideshow {
-        overflow-x:auto;
-    }
-}
