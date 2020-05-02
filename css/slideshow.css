@@ -1,6 +1,6 @@
 .slideshow {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     scrollbar-width: thin;
     background-color: black;
     margin: auto;
@@ -13,3 +13,8 @@
     border-radius: 5px;
 }
 
+@media only screen and (min-width: 1600px) {    /* fac asa ca sa se arate scriollbarul normal si in chrome, si in firefox */
+    .slideshow {                                /* in chrome cu overflow-x: scroll; scrollbarul nu dispare niciodata*/
+        overflow-x:auto;                        /* in firefox cu overflow-x:auto; scrollbarul se arata in josul paginii*/
+    }
+}
