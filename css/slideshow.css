@@ -1,17 +1,20 @@
 .slideshow {
     display: flex;
-    overflow-x:scroll;
+    overflow-x: scroll;
     scrollbar-width: thin;
     background-color: black;
+    margin: auto;
 }
 
 .thumbnail {
     height: 64px;
-    margin: 3px;
+    margin: 3.5px;
     border: 1px solid gray;
     border-radius: 5px;
 }
 
-.largeimg {
-    
+@media only screen and (min-width: 1600px) {
+    .slideshow {
+        overflow-x:auto;
+    }
 }
