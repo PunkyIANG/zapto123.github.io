@@ -19,11 +19,11 @@
 <body onload="changeImg('first'); loadSlideshow(); menuLoad();">
     <nav class="desktop">
         <a href="#presentation">PRESENTATION</a>
-        <a href="">TINKERING</a>
-        <a href="">PAINT JOBS</a>
-        <a href="">VIDS</a>
-        <a href="">SCREENSHOTS</a>
-        <a href="">CREDITS</a>
+        <a href="#pictures">PICTURES</a>
+        <a href="#video">VIDEO</a>
+        <a href="#img1">TINKERING</a>
+        <a href="#img2">PAINT JOBS</a>
+        <a href="#credits">CREDITS</a>
         <img src="img/wattz logo.svg" id="logo" />
     </nav>
 
@@ -32,23 +32,24 @@
         <img id="logo" src="img/wattz logo.svg" />
 
         <a href="#presentation" class="menuitems">PRESENTATION</a>
-        <a href="" class="menuitems">TINKERING</a>
-        <a href="" class="menuitems">PAINT JOBS</a>
-        <a href="" class="menuitems">VIDS</a>
-        <a href="" class="menuitems">SCREENSHOTS</a>
-        <a href="" class="menuitems">CREDITS</a>
+        <a href="#pictures" class="menuitems">PICTURES</a>
+        <a href="#video" class="menuitems">VIDEO</a>
+        <a href="#img1" class="menuitems">TINKERING</a>
+        <a href="#img2" class="menuitems">PAINT JOBS</a>
+        <a href="#credits" class="menuitems">CREDITS</a>
     </nav>
 
-    <h1 class="titletext">Wattz 3000</h1>
-    <h2 class="titletext">Laser power. Reinvented</h1>
-        <img src="img/slideshow/2.jpg" id="frontimg">
+    <div id="container">
+        <!-- presentation -->
+        <h1 class="titletext" id="presentation">Wattz 3000</h1>
+        <h2 class="titletext">Laser power. Reinvented</h2>
+        <img src="img/slideshow/2.jpg" id="frontimg" />
 
-        <h3 class="titletext">Following total atomic annihilation, the rebuilding of this great nation of ours may fall
+        <h3 class="titletext" id="pictures">Following total atomic annihilation, the rebuilding of this great nation of ours may fall
             to you!<br>
             That's why we at Wattz Electronics have created this laser rifle that makes <i>you</i> special!
         </h3>
 
-        <!-- presentation -->
 
         <img width="100%" id="largeImg">
         <div class="slideshow">
@@ -68,7 +69,7 @@
 
 
 
-        <h3 class="titletext">Check out the field testing of the Wattz 3000 rifle</h3>
+        <h3 class="titletext" id="video">Check out the field testing of the Wattz 3000 rifle</h3>
 
         <iframe class="iframes" type="text/html"
             src="https://www.youtube.com/embed/brvomV0yNDE?modestbranding=1&color=white?rel=0" frameborder="0"
@@ -105,7 +106,7 @@
 
 
 
-        <h3 class="credits">Credits:</h3>
+        <h3 class="credits" id="credits">Credits:</h3>
         <p class="credits">
             DeadPool2099 (Painter2099) - concepts, models, textures, CK work <br>
             Ha_Ru (blackxteel) - animations, CK work <br>
@@ -118,7 +119,7 @@
             BillyH666 - lore writing <br>
             a_blind_man - LL script
         </p>
-
+    </div>
 </body>
 
 </html>

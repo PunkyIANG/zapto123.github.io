@@ -22,11 +22,17 @@ body {
     }
 }
 
+#container {
+    max-width: 1600px;
+    margin: auto;
+}
 
 .titletext {
     font-family: merriweather;
     color: white;
     text-align: center;
+    margin: 30px;
+    line-height: 30px;
 }
 
 .italictext {

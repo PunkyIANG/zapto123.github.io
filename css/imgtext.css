@@ -18,12 +18,12 @@
 
 #text11 {
     top: 5.8vw;
-    left: 5vw;
+    left: 5%;
 }
 
 #text12 {
     top: 30vw;
-    left: 20vw;
+    left: 20%;
 }
 
 #img2 {
@@ -32,7 +32,7 @@
 
 #text21 {
     top: 8vw;
-    left: 6vw;
+    left: 6%;
 }
 
 #element {
@@ -47,4 +47,31 @@
 @font-face {
     font-family: rockwell;
     src: url(../fonts/rockwell.ttf);
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .imgtext {
+        color: white;
+        font-size: 160px;
+        font-family: rockwell;
+        position: relative;
+    }
+
+    .imgcontainer {
+        height: 900px; /* ~16:9 aspect ratio*/
+    }
+    
+    #text11 {
+        top: 92.8px;
+    }
+    
+    #text12 {
+        top: 480px;
+    }
+
+    #text21 {
+        top: 128px;
+    }
+    
 }
