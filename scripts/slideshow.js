@@ -6,14 +6,11 @@ function loadSlideshow() {
         items.item(i).addEventListener("click", changeImg);
         items.item(i).addEventListener("mouseenter", changeImg);
     }
-
-    window.addEventListener("resize", resizeTest);
 }
 
 function changeImg(source) {
     if (typeof source == "string") {
         source = document.getElementById(source); //adaugam posibilitatea sa chemam functia din alte obiecte
-        console.log("redirected the source");
     } else {
         source = source.target;
     }
@@ -27,8 +24,4 @@ function changeImg(source) {
     previousTrigger = source;
 }
 
-
-function resizeTest() {
-    console.log("resize");
-}
 
