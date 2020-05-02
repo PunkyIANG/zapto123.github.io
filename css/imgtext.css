@@ -1,0 +1,50 @@
+.imgtext {
+    color: white;
+    font-size: 10vw;
+    font-family: rockwell;
+    position: relative;
+}
+
+.imgcontainer {
+    width: 100%;
+    height: 56.25vw; /* ~16:9 aspect ratio*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#img1 {
+    background-image: url("../img/attachmentexample.gif"); /*pun imaginea ca background ca sa pot pune normal text in div*/
+}
+
+#text11 {
+    top: 5.8vw;
+    left: 5vw;
+}
+
+#text12 {
+    top: 30vw;
+    left: 20vw;
+}
+
+#img2 {
+    background-image: url("../img/paintjobexample.gif");
+}
+
+#text21 {
+    top: 8vw;
+    left: 6vw;
+}
+
+#element {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+@font-face {
+    font-family: rockwell;
+    src: url(../fonts/rockwell.ttf);
+}

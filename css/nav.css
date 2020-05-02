@@ -1,0 +1,46 @@
+
+nav {
+    position: -webkit-sticky; /* safari */
+    position: sticky; 
+    top: 0;
+    width: 100% - 20px;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+    z-index: 9999; /* ca textul sa nu se arate deasupra headerului */
+}
+
+#menu {
+    width: 50px;
+    height: 50px;
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    padding: 0 10px;
+    margin-left: auto;
+}
+
+nav a,
+nav p {
+    font-family: Futura-PT;
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav p:hover {
+    text-decoration: underline;
+}
+
+.menuitems {
+    display: none;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Futura-PT;
+    src: url(../fonts/FuturaPT-Light.ttf);
+}

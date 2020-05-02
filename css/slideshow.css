@@ -1,0 +1,17 @@
+.slideshow {
+    display: flex;
+    overflow-x:scroll;
+    scrollbar-width: thin;
+    background-color: black;
+}
+
+.thumbnail {
+    height: 64px;
+    margin: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.largeimg {
+    
+}

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: black;
+    scrollbar-width: 15px;
+}
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    .desktop {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+
+.titletext {
+    font-family: merriweather;
+    color: white;
+    text-align: center;
+}
+
+.italictext {
+    font-family: merriweather_i;
+}
+
+#frontimg {
+    width: 100%;
+}
+
+@font-face {
+    font-family: Rockwell;
+    src: url(../fonts/rockwell.ttf);
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+
+.iframes {
+    width: 100%;
+    height: calc(100vh - 71px);
+}
+
+.credits {
+    text-align: center;
+    font-family: Futura-PT;
+    color: white;
+}

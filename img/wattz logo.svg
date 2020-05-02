@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1750px" height="850px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1750 850"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="390" font-variant="normal" class="str4" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Front Page Neue">
+		<font-face-src>
+			<font-face-name name="Front Page Neue"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="439" d="M0 497.992c0,130.333 65.1667,195.334 195.329,195.334 130.167,0 195.334,-65.0005 195.334,-195.334l0 -48.8335 -146.5 0 0 68.3336c0,32.6664 -16.3332,48.8335 -48.8335,48.8335 -32.5002,0 -48.8286,-16.167 -48.8286,-48.8335l0 -351.496c0,-32.4954 16.3283,-48.8286 48.8286,-48.8286 32.5002,0 48.8335,16.3332 48.8335,48.8286l0 68.3336 146.5 0 0 -48.8335c0,-130.162 -65.1667,-195.329 -195.334,-195.329 -130.162,0 -195.329,65.1667 -195.329,195.329l0 312.496z"/>
+   <glyph unicode="E" horiz-adv-x="390" d="M341.829 683.659l0 -127 -195.329 0 0 -151.329 146.495 0 0 -127 -146.495 0 0 -151.329 195.329 0 0 -127 -341.829 0 0 683.659 341.829 0z"/>
+   <glyph unicode="I" horiz-adv-x="195" d="M0 683.659l146.5 0 0 -683.659 -146.5 0 0 683.659z"/>
+   <glyph unicode="L" horiz-adv-x="341" d="M0 683.659l146.5 0 0 -556.658 146.495 0 0 -127 -292.996 0 0 683.659z"/>
+   <glyph unicode="N" horiz-adv-x="439" d="M146.5 0l-146.5 0 0 683.659 146.5 0 97.662 -341.829 0 341.829 146.5 0 0 -683.659 -146.5 0 -97.662 341.829 0 -341.829z"/>
+   <glyph unicode="O" horiz-adv-x="439" d="M0 497.992c0,130.333 65.1667,195.334 195.329,195.334 130.167,0 195.334,-65.0005 195.334,-195.334l0 -312.496c0,-130.162 -65.1667,-195.329 -195.334,-195.329 -130.162,0 -195.329,65.1667 -195.329,195.329l0 312.496zm146.5 -331.996c0,-32.4954 16.3283,-48.8286 48.8286,-48.8286 32.5002,0 48.8335,16.3332 48.8335,48.8286l0 351.496c0,32.6664 -16.3332,48.8335 -48.8335,48.8335 -32.5002,0 -48.8286,-16.167 -48.8286,-48.8335l0 -351.496z"/>
+   <glyph unicode="R" horiz-adv-x="439" d="M146.5 278.329l0 -278.329 -146.5 0 0 683.659 195.329 0c130.167,0 195.334,-58.6666 195.334,-175.834l0 -53.6669c0,-46.9958 -10.5027,-84.3296 -31.3322,-112.329 20.8295,-27.9991 31.3322,-65.499 31.3322,-112.334l0 -156.162c0,-26.1664 4.8335,-50.5 14.6667,-73.3333l-146.5 0c-9.83316,22.8333 -14.6667,47.1669 -14.6667,73.3333l0 156.162c0,32.5002 -16.3332,48.8335 -48.8335,48.8335l-48.8286 0zm48.8286 127c32.5002,0 48.8335,16.167 48.8335,48.8286l0 53.6669c0,32.5002 -16.3332,48.8335 -48.8335,48.8335l-48.8286 0 0 -151.329 48.8286 0z"/>
+   <glyph unicode="S" horiz-adv-x="439" d="M82.4969 341.829c-54.9963,48.8335 -82.4969,100.829 -82.4969,156.162 0,130.333 65.1667,195.334 195.329,195.334 130.167,0 195.334,-65.0005 195.334,-195.334l-146.5 0c3.16694,37.4999 -7.49705,61.0027 -32.163,70.6648 -24.837,9.50082 -46.3361,2.66844 -64.502,-20.8295 -23.1656,-52.6651 9.00232,-105.169 96.665,-157.164 24.3336,-16.3332 45.6665,-32.6664 63.9986,-48.8335 55.0012,-48.8335 82.5018,-101 82.5018,-156.334 0,-130.162 -65.1667,-195.329 -195.334,-195.329 -130.162,0 -195.329,65.1667 -195.329,195.329l146.5 0c-3.338,-37.3289 7.49705,-60.8317 32.163,-70.4987 24.8321,-9.66699 46.3312,-2.66355 64.502,20.8344 23.1656,52.6651 -9.16849,104.998 -96.665,157.164 -24.4998,16.3332 -45.8327,32.5002 -64.0035,48.8335z"/>
+   <glyph unicode="T" horiz-adv-x="439" d="M0 683.659l390.663 0 0 -127 -122.167 0 0 -556.658 -146.495 0 0 556.658 -122.001 0 0 127z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Front Page Neue";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str4 {stroke-width:3.72;stroke-miterlimit:2.61313}
+    .str0 {stroke:black;stroke-width:2.08;stroke-miterlimit:2.61313}
+    .str5 {stroke:#FEFEFE;stroke-width:0.9;stroke-miterlimit:2.61313}
+    .str3 {stroke:#FEFEFE;stroke-width:16.67;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str1 {stroke:#FEFEFE;stroke-width:41.67;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .str2 {stroke:#FEFEFE;stroke-width:20.83;stroke-linejoin:round;stroke-miterlimit:2.61313}
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:black}
+    .fnt0 {font-weight:normal;font-size:241.67px;font-family:'Front Page Neue'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_2">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" width="1750" height="850"/>
+  <polygon class="fil1 str1" points="329.79,400.34 485.41,102.02 569.39,102.37 330.33,561.69 91.27,102.37 175.16,102.02 "/>
+  <polygon class="fil1 str1" points="485.16,400.34 640.77,102.02 724.76,102.37 485.69,561.69 246.63,102.37 330.53,102.02 "/>
+  <path class="fil1 str2" d="M781.9 177.39l202.1 372.62 -76.42 0 -52.24 -96.48 -147.51 0 -52.24 96.48 -76.42 0 202.73 -372.62zm-41.26 213.2l81.89 0 -40.95 -76.75 -40.94 76.75z"/>
+  <polygon class="fil1 str2" points="913.34,234.64 913.34,168.88 1358.98,168.88 1358.98,234.64 1266.92,234.64 1266.92,551.38 1183.17,551.38 1183.17,234.64 1085.67,234.64 1085.67,551.38 1006.92,551.38 1006.92,234.64 "/>
+  <polygon class="fil1 str3" points="1375.04,551.38 1639.01,551.38 1639.01,484.55 1499.49,484.55 1658.24,168.88 1401.13,168.88 1401.13,234.64 1542.65,234.64 "/>
+  <text x="603.09" y="753.86"  class="fil1 str5 fnt0">ELECTRONICS</text>
+ </g>
+</svg>

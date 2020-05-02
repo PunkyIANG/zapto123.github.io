@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/imgtext.css">
+
+    <script src="scripts/slideshow.js"></script>
+    <script src="scripts/menu.js"></script>
+
+    <meta name="viewport" content="width=device-width">
+    <style>
+
+    </style>
+</head>
+
+<body onload="changeImg('first'); loadSlideshow(); menuLoad();">
+    <nav class="desktop">
+        <a href="#presentation">PRESENTATION</a>
+        <a href="">TINKERING</a>
+        <a href="">PAINT JOBS</a>
+        <a href="">VIDS</a>
+        <a href="">SCREENSHOTS</a>
+        <a href="">CREDITS</a>
+        <img src="img/wattz logo.svg" id="logo" />
+    </nav>
+
+    <nav class="mobile">
+        <img id="menu" src="img/menu.svg" onclick="switchMenu();" />
+        <img id="logo" src="img/wattz logo.svg" />
+
+        <a href="#presentation" class="menuitems">PRESENTATION</a>
+        <a href="" class="menuitems">TINKERING</a>
+        <a href="" class="menuitems">PAINT JOBS</a>
+        <a href="" class="menuitems">VIDS</a>
+        <a href="" class="menuitems">SCREENSHOTS</a>
+        <a href="" class="menuitems">CREDITS</a>
+    </nav>
+
+    <h1 class="titletext">Wattz 3000</h1>
+    <h2 class="titletext">Laser power. Reinvented</h1>
+        <img src="img/slideshow/2.jpg" id="frontimg">
+
+        <h3 class="titletext">Following total atomic annihilation, the rebuilding of this great nation of ours may fall
+            to you!<br>
+            That's why we at Wattz Electronics have created this laser rifle that makes <i>you</i> special! <br>
+            Experience our new focusing crystal technology, bringing you relentless power and exquisite accuracy.
+        </h3>
+
+        <!-- presentation -->
+
+        <img width="100%" id="largeImg">
+        <div class="slideshow">
+            <img src="img/slideshow/1.jpg" class="thumbnail" id="first">
+            <img src="img/slideshow/3.jpg" class="thumbnail">
+            <img src="img/slideshow/4.jpg" class="thumbnail">
+            <img src="img/slideshow/5.jpg" class="thumbnail">
+            <img src="img/slideshow/6.png" class="thumbnail">
+            <img src="img/slideshow/7.jpg" class="thumbnail">
+            <img src="img/slideshow/8.png" class="thumbnail">
+            <img src="img/slideshow/9.jpg" class="thumbnail">
+            <img src="img/slideshow/10.jpg" class="thumbnail">
+            <img src="img/slideshow/11.png" class="thumbnail">
+            <img src="img/slideshow/12.png" class="thumbnail">
+            <img src="img/slideshow/13.png" class="thumbnail">
+        </div>
+
+
+
+        <h3 class="titletext">Check out the field testing of the Wattz 3000 rifle</h3>
+
+        <iframe class="iframes" type="text/html"
+            src="https://www.youtube.com/embed/brvomV0yNDE?modestbranding=1&color=white?rel=0" frameborder="0"
+            allowfullscreen> </iframe>
+        <!-- features -->
+        <!-- <h1 class="flavortext">In a post-nuclear America...</h1> -->
+        <!-- <h3 class="flavortext">Who's gonna be your best friend?</h1> -->
+        <!-- tinkering -->
+        <!-- paint jobs -->
+        <!-- vids -->
+        <!-- screenshots -->
+        <!-- credits -->
+
+        <h3 class="titletext">Inspect all the refined elements in great detail</h3>
+
+        <iframe class="iframes" src="https://www.artstation.com/embed/7023271" frameborder="0" allowfullscreen
+            mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"> </iframe>
+
+        <!-- remake this shit: -->
+
+        <div class="imgcontainer" id="img1">
+            <div id="element">
+                <span class="imgtext" id="text11">Mix and match...</span>
+                <br>
+                <span class="imgtext" id="text12">for the best result!</span>
+            </div>
+        </div>
+
+        <div class="imgcontainer" id="img2">
+            <div id="element">
+                <span class="imgtext" id="text21">Customize your looks</span>
+            </div>
+        </div>
+
+
+
+        <h3 class="credits">Credits:</h3>
+        <p class="credits">
+            DeadPool2099 (Painter2099) - concepts, models, textures, CK work <br>
+            Ha_Ru (blackxteel) - animations, CK work <br>
+            Pie_Savvy - concept arts <br>
+            Navaro - sounds <br>
+            Shavkacagarikia - CK help <br>
+            Wanamingo (spacegorilla1) - Wattz logo design <br>
+            Hyper (FX0x01) - Nifscope help <br>
+            OhDeer (BenderSKR) - some good screenshots :) <br>
+            BillyH666 - lore writing <br>
+            a_blind_man - LL script
+        </p>
+
+</body>
+
+</html>
