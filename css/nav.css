@@ -1,12 +1,12 @@
 
 nav {
-    position: -webkit-sticky; /* safari */
+    position: -webkit-sticky; /* safari compatibility */
     position: sticky; 
     top: 0;
-    width: 100% - 20px;
+    width: 100% - 20px; 
     background-color: black;
     padding: 10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* ca elementele din meniul de pe telefoane să se arate pe linii diferite*/
     z-index: 9999; /* ca textul sa nu se arate deasupra headerului */
 }
 
@@ -19,7 +19,7 @@ nav {
     width: 100px;
     height: 50px;
     padding: 0 10px;
-    margin-left: auto;
+    margin-left: auto; /* ca să se fixeze în partea dreaptă a paginii */
 }
 
 nav a,
@@ -36,7 +36,7 @@ nav p:hover {
 }
 
 .menuitems {
-    display: none;
+    display: none; /* ca meniul sa fie inchis la inceput */
     width: 100%;
 }
 

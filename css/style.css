@@ -44,11 +44,6 @@ body {
 }
 
 @font-face {
-    font-family: Rockwell;
-    src: url(../fonts/rockwell.ttf);
-}
-
-@font-face {
     font-family: merriweather;
     src: url(../fonts/Merriweather-Regular.ttf);
 }

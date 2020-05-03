@@ -50,7 +50,7 @@
 }
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) { /* limitam latimea maxima a contentului */
     .imgtext {
         color: white;
         font-size: 160px;
@@ -73,5 +73,4 @@
     #text21 {
         top: 128px;
     }
-    
 }
