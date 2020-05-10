@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: black;
-    scrollbar-width: 15px;
+    scrollbar-width: 15px; /* doesn't work /shrug */
 }
 
 .desktop {
@@ -24,7 +24,7 @@ body {
 
 #container {
     max-width: 1600px;
-    margin: auto;
+    margin: auto; /* get centered */
 }
 
 .titletext {
@@ -33,10 +33,6 @@ body {
     text-align: center;
     margin: 30px;
     line-height: 30px;
-}
-
-.italictext {
-    font-family: merriweather_i;
 }
 
 #frontimg {

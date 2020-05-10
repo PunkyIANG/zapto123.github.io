@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="css/imgtext.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <script src="scripts/slideshow.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/form.js"></script>
 
     <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
     <style>
 
     </style>
 </head>
 
-<body onload="changeImg('first'); loadSlideshow(); menuLoad();">
+<body onload="changeImg('first'); loadSlideshow(); menuLoad(); generateCaptcha();">
     <nav class="desktop">
         <a href="#presentation">PRESENTATION</a>
         <a href="#pictures">PICTURES</a>
@@ -100,6 +103,18 @@
             </div>
         </div>
 
+        <form onsubmit="submitCaptcha(); return false;">
+            <h3 class="titletext">Excited? You should be! Now you have the chance to test our product at home!</h3>
+            <input type="text" class="fullwidth" placeholder="Your name and surname" required pattern="[A-Za-z ]+">
+            <input type="email" class="fullwidth" placeholder="Email" required>
+            <input type="text" class="halfwidth"placeholder="Country" required>
+            <input type="text" class="halfwidth"placeholder="City" required>
+            <input type="text" class="fullwidth" placeholder="Address" required>
+            <input type="text" class="fullwidth" placeholder="Address 2 (optional)">
+            <input type="text" class="fullwidth" id="captcha" required>
+            <input type="submit" class="halfwidth">
+            <h3 id="formResult" class="titletext"></h3>
+        </form>
 
         <h3 class="credits" id="credits">Credits:</h3>
         <p class="credits">
